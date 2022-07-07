@@ -1,0 +1,58 @@
+/* colors */
+
+
+$primary: rgba(0,164,138,1);
+$secondary: #B0B4BC;
+$dark: #626A79;
+$danger: #BD4242;
+$blue: #3F81FE;
+
+$color-main-black: rgba(0,0,0,1);
+$color-main-dark-grey: rgba(98,106,121,1); //#626A79
+$color-main-medium-grey: rgba(176,180,188,1); //#B0B4BC
+$color-main-white: rgba(255,255,255,1);
+$color-main-white-50: rgba(255,255,255,0.600);
+$color-extra-light-grey: rgba(246,245,245,1); // #F6F5F5
+$color-extra-basic-grey: rgba(196,196,196,1);
+$color-accent: #FF9F4A;
+$transparent: rgba(0,0,0,0);
+
+$gradient-ta: linear-gradient(108.44deg, rgba(0,164,138,1) 0%, rgba(0,164,138,1) 49%, rgba(0,164,138,0.9374124649859944) 63%, rgba(0,164,138,0.3) 100%);
+
+
+
+$nav-shadow: 0px 3px 9px rgba(0, 0, 0, 0.08);
+$body-color: $color-main-black;
+
+/* fonts */ //TTTravel
+$font-family-base: "TT Travels"; /*  */
+$font-url-base: "/typo3conf/ext/wciom_ok/Resources/Public/fonts/TT_Travels_Regular"; /* regular 400 */
+$font-url-base-medium: "/typo3conf/ext/wciom_ok/Resources/Public/fonts/TT_Travels_Medium"; /* headers medium 500 */
+$font-url-base-demibold: "/typo3conf/ext/wciom_ok/Resources/Public/fonts/TT_Travels_DemiBold"; /* headers medium 600 */
+
+$h1-font-size: 57px;
+$h2-font-size: 45px;
+$h3-font-size: 25px;
+$headings-margin-bottom: 70px;
+//$headings-line-height:
+
+/* links */
+$link-hover-decoration: none;
+$link-hover-color: $primary;
+
+/* spaces */
+$spacer: 5px;
+$spacers: (
+        5: ($spacer * 1),
+        10: ($spacer * 2),
+        15: ($spacer * 3),
+        20: ($spacer * 4),
+        25: ($spacer * 5),
+        30: ($spacer * 6),
+        40: ($spacer * 8),
+        50: ($spacer * 10),
+        60: ($spacer * 12),
+        70: ($spacer * 14),
+        80: ($spacer * 16),
+        100: ($spacer * 20)
+)

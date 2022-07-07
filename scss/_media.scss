@@ -496,7 +496,7 @@
   section.main-screen {
     .main-content {
       h1.h1-main {
-        font-size: 30px;
+        font-size: 27px;
         line-height: 39px;
       }
     }
@@ -769,3 +769,26 @@
   }
 }
 
+@media (min-width: 768px) {
+  .border-news:first-child {
+    padding-right: 45px;
+  }
+}
+
+@media (max-width: 835px) {
+  .border-news:first-child {
+    margin-bottom: 50px !important;
+  }
+}
+
+.border-news:last-child {
+  border-left: 1px solid #626A79;
+  padding-left: 45px;
+}
+
+@media (max-width: 835px) {
+  .border-news:last-child {
+    border-left: none !important;
+    padding-left: 15px;
+  }
+}

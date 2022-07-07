@@ -1,0 +1,188 @@
+/* главная основной наборный текст, параграф */
+@mixin paragraph() {
+  font-family: $font-family-base;
+  font-weight: normal; /* regular */
+  font-size: 14px;
+  line-height: 24px;
+}
+@mixin header() {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+@mixin h1-title() {
+  font-family: $font-family-base;
+  font-size: 58px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24 !important;
+  letter-spacing: normal;
+  text-indent: -.06em !important;
+}
+
+@mixin h2-title() {
+  font-family: $font-family-base;
+  font-size: 45px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11 !important;
+  letter-spacing: normal;
+}
+
+@mixin factoids() {
+  font-family: $font-family-base;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1 !important;
+  letter-spacing: normal;
+}
+
+@mixin h3-title() {
+  font-family: $font-family-base;
+  font-size: 25px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28 !important;
+  letter-spacing: normal;
+}
+
+@mixin menu-large() {
+  font-family: $font-family-base;
+  font-size: 20px !important;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4 !important;
+  letter-spacing: normal;
+}
+
+@mixin h4-title() {
+  font-family: $font-family-base;
+  font-size: 20px !important;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5 !important;
+  letter-spacing: normal;
+}
+
+@mixin text-large() {
+  font-family: $font-family-base;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-links() {
+  font-family: $font-family-base;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-controls() {
+  font-family: $font-family-base !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1em !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-bold-title() {
+  font-family: $font-family-base;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-menu-medium() {
+  font-family: $font-family-base;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-text-body() {
+  font-family: $font-family-base;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-menu-small() {
+  font-family: $font-family-base;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-text-medium() {
+  font-family: $font-family-base;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-bold-title-small() {
+  font-family: $font-family-base;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46 !important;
+  letter-spacing: normal;
+}
+
+@mixin desktop-text-small() {
+  font-family: $font-family-base;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.62 !important;
+  letter-spacing: normal;
+}
+@mixin main-label() {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+}
+@mixin logo-note() {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+}
