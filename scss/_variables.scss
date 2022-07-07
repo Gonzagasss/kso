@@ -26,9 +26,9 @@ $body-color: $color-main-black;
 
 /* fonts */ //TTTravel
 $font-family-base: "TT Travels"; /*  */
-$font-url-base: "/typo3conf/ext/wciom_ok/Resources/Public/fonts/TT_Travels_Regular"; /* regular 400 */
-$font-url-base-medium: "/typo3conf/ext/wciom_ok/Resources/Public/fonts/TT_Travels_Medium"; /* headers medium 500 */
-$font-url-base-demibold: "/typo3conf/ext/wciom_ok/Resources/Public/fonts/TT_Travels_DemiBold"; /* headers medium 600 */
+$font-url-base: "../fonts/TT_Travels_Regular"; /* regular 400 */
+$font-url-base-medium: "../fonts/TT_Travels_Medium"; /* headers medium 500 */
+$font-url-base-demibold: "../fonts/TT_Travels_DemiBold"; /* headers medium 600 */
 
 $h1-font-size: 57px;
 $h2-font-size: 45px;

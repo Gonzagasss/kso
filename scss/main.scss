@@ -2704,7 +2704,7 @@ img#comm-icon {
         margin-right: 0;
       }
 
-
+       
         a:hover {
           text-decoration: none;
         }
@@ -2920,7 +2920,7 @@ fieldset {
         @media (max-width: 425px) {
           margin-bottom: 20px;
         }
-        @media (max-width: 375px) {
+        @media (max-width: 375px) { 
           margin-bottom: 20px;
         }
         @media (max-width: 320px) {
@@ -3164,35 +3164,35 @@ main.case-content blockquote.expert-blockquote {
 }
 
 #c17305 {
-
+  
     width: 300px;
     height: auto;
     border: 1px solid $color-main-dark-grey;
     position: sticky;
     top: 200px;
-
+  
     ul.acc-menu-list {
       list-style: none;
       @include desktop-controls;
-
+  
       li {
         margin-bottom: 15px;
-
+  
         a {
           @include desktop-controls;
           color: $color-main-black;
-
+  
           &:hover {
             color: $primary;
           }
-
+  
           &.active {
             color: $primary;
           }
         }
       }
     }
-
+  
     .btn-second {
       padding: 11px 10px 9px;
       margin-bottom: 20px;
@@ -3341,16 +3341,30 @@ a.black-link.active {
     }
   }
 }
-.modal-dialog.reg-card.modal-certificate {
-  max-width: 90%;
-  max-height: 90vh;
-  .modal-content {
-    background: transparent;
-    padding: 4rem;
-    border: 0;
-  }
-}
 
+@media (min-width: 768px) {
+  .border-news:first-child {
+    padding-right: 45px;
+    }
+  }
+
+  @media (max-width: 835px) {
+    .border-news:first-child {
+      margin-bottom: 50px !important;
+      }
+    }
+
+.border-news:last-child {
+  border-left: 1px solid #626A79;
+  padding-left: 45px;
+  }
+  
+  @media (max-width: 835px) {
+    .border-news:last-child {
+      border-left: none !important;
+      padding-left: 15px;
+      }
+  }
 
 @import "../bootstrap/scss/bootstrap";
 @import "_media";
