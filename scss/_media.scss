@@ -802,3 +802,9 @@ font-size: 14px !important;
   top: 58px;
 }
 }
+
+@media (max-width: 375px) {
+  .swc .img-dark img {
+width: 130px !important;
+}
+}

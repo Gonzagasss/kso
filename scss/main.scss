@@ -3378,7 +3378,16 @@ a.black-link.active {
 .modal-dialog.reg-card.modal-certificate {
   max-width: 75vw;
   margin: 2rem auto;
+
+  .modal-content {
+    padding: 3.2rem;
+    background: transparent;
+    border: 0;
+  }
+
 }
+
+
 
 @import "../bootstrap/scss/bootstrap";
 @import "_media";

@@ -2484,6 +2484,10 @@ a.black-link.active {
 .modal-dialog.reg-card.modal-certificate {
   max-width: 75vw;
   margin: 2rem auto; }
+  .modal-dialog.reg-card.modal-certificate .modal-content {
+    padding: 3.2rem;
+    background: transparent;
+    border: 0; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -11734,5 +11738,8 @@ a.text-dark:hover, a.text-dark:focus {
 
   .ta-nav-block {
     top: 58px; } }
+@media (max-width: 375px) {
+  .swc .img-dark img {
+    width: 130px !important; } }
 
 /*# sourceMappingURL=main.css.map */
