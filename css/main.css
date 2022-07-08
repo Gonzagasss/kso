@@ -21,6 +21,7 @@
   font-display: swap;
   font-style: normal;
   font-weight: 500;
+
   src: url("../fonts/TT_Travels_Medium.eot");
   src: url("../fonts/TT_Travels_Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/TT_Travels_Medium.woff2") format("woff2"), url("../fonts/TT_Travels_Medium.woff") format("woff"), url("../fonts/TT_Travels_Medium.ttf") format("truetype"), url("../fonts/TT_Travels_Medium.svg#Lato") format("svg");
   /* Legacy iOS */ }
