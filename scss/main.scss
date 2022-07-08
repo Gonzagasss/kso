@@ -299,6 +299,9 @@ main {
 
 .ta-nav-block {
   box-shadow: $nav-shadow;
+  position: sticky;
+    top: 50px;
+    background: white;
 
   .nav {
     overflow-x: auto;
@@ -3366,6 +3369,11 @@ a.black-link.active {
       }
   }
   
+  .kso-banner {
+    background-image: url(images/main2.png);
+    background-size: cover;
+}
+
 
 @import "../bootstrap/scss/bootstrap";
 @import "_media";
