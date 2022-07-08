@@ -2481,6 +2481,10 @@ a.black-link.active {
   background-image: url(images/main2.png);
   background-size: cover; }
 
+.modal-dialog.reg-card.modal-certificate {
+  max-width: 75vw;
+  margin: 2rem auto; }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
