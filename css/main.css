@@ -2463,22 +2463,11 @@ a.black-link.active {
     .acc-posts .frame.post-grey .news-hdr a {
       color: white; }
 
-@media (min-width: 768px) {
-  .border-news:first-child {
-    padding-right: 45px; } }
-@media (max-width: 835px) {
-  .border-news:first-child {
-    margin-bottom: 50px !important; } }
-.border-news:last-child {
-  border-left: 1px solid #626A79;
-  padding-left: 45px; }
+.img-dark img {
+  filter: grayscale(100%); }
 
-@media (max-width: 835px) {
-  .border-news:last-child {
-    border-left: none !important;
-    padding-left: 15px; } }
 .kso-banner {
-  background-image: url(images/main2.png);
+  background-image: url(../images/main2.png);
   background-size: cover; }
 
 .modal-dialog.reg-card.modal-certificate {
@@ -11727,6 +11716,20 @@ a.text-dark:hover, a.text-dark:focus {
 @media (min-width: 1200px) {
   .swc .img-dark img {
     width: 130px !important; } }
+@media (min-width: 768px) {
+  .border-news:first-child {
+    padding-right: 45px; } }
+@media (max-width: 835px) {
+  .border-news:first-child {
+    margin-bottom: 50px !important; } }
+.border-news:last-child {
+  border-left: 1px solid #626A79;
+  padding-left: 45px; }
+
+@media (max-width: 835px) {
+  .border-news:last-child {
+    border-left: none !important;
+    padding-left: 15px; } }
 @media (min-width: 768px) {
   .border-news:first-child {
     padding-right: 45px; } }

@@ -3345,33 +3345,12 @@ a.black-link.active {
     }
   }
 }
+.img-dark img{
+  filter: grayscale(100%);
+}
 
-@media (min-width: 768px) {
-  .border-news:first-child {
-    padding-right: 45px;
-    }
-  }
-
-  @media (max-width: 835px) {
-    .border-news:first-child {
-      margin-bottom: 50px !important;
-      }
-    }
-
-.border-news:last-child {
-  border-left: 1px solid #626A79;
-  padding-left: 45px;
-  }
-  
-  @media (max-width: 835px) {
-    .border-news:last-child {
-      border-left: none !important;
-      padding-left: 15px;
-      }
-  }
-  
   .kso-banner {
-    background-image: url(images/main2.png);
+    background-image: url(../images/main2.png);
     background-size: cover;
 }
 
@@ -3384,7 +3363,6 @@ a.black-link.active {
     background: transparent;
     border: 0;
   }
-
 }
 
 
