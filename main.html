@@ -57,31 +57,31 @@
     />
   </head>
 
-
-  <header class="main-hdr fixed-top">
+  <body>
+    <header class="main-hdr fixed-top">
     <div class="nav-top-black">
       <div class="container pr-0 pr-md-15">
         <nav
-          class="navbar navbar-expand-lg p-0 justify-content-md-between justify-content-start"
+                class="navbar navbar-expand-lg p-0 justify-content-md-between justify-content-start"
         >
           <a class="portal-name" href="/">КСО ВЦИОМ</a>
           <div class="d-flex ml-md-auto ml-0">
             <a
-              role="button"
-              class="navbar-toggler collapse-top-menu ml-auto"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+                    role="button"
+                    class="navbar-toggler collapse-top-menu ml-auto"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
             >
               <span class="d-none d-md-inline-flex">РЕСУРСЫ ВЦИОМ</span>
               <svg
-                width="14"
-                height="8"
-                viewBox="0 0 14 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M0.5 0.5L7 6.5L13.5 0.500001" />
               </svg>
@@ -95,46 +95,46 @@
                             -->
                 <li class="nav-item">
                   <a class="nav-link" href="https://ok.wciom.ru" target="_blank"
-                    >Клиентам</a
+                  >Клиентам</a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://wciom.ru" target="_blank"
-                    >Новости</a
+                  >Новости</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link"
-                    href="https://prometey.wciom.ru/"
-                    target="_blank"
-                    >Прометей</a
+                          class="nav-link"
+                          href="https://prometey.wciom.ru/"
+                          target="_blank"
+                  >Прометей</a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://bd.wciom.ru" target="_blank"
-                    >База данных</a
+                  >База данных</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link"
-                    href="https://profi.wciom.ru"
-                    target="_blank"
-                    >Профи</a
+                          class="nav-link"
+                          href="https://profi.wciom.ru"
+                          target="_blank"
+                  >Профи</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link"
-                    href="https://book.wciom.ru"
-                    target="_blank"
-                    >Книги и журналы</a
+                          class="nav-link"
+                          href="https://book.wciom.ru"
+                          target="_blank"
+                  >Книги и журналы</a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://wciom.com" target="_blank"
-                    >ENG</a
+                  >ENG</a
                   >
                 </li>
               </ul>
@@ -160,9 +160,9 @@
                         </a>
                         <div class="collapse navbar-collapse mb-0">
                             <div class="d-flex">
-                  <ul class="menu-main flex-cont"> 
+                  <ul class="menu-main flex-cont">
                             <f:for each="{mainnavigation}" as="mainnavigationItem">
-                        <li class="menu-main-item {f:if(condition: mainnavigationItem.active, then:'active')}"> 
+                        <li class="menu-main-item {f:if(condition: mainnavigationItem.active, then:'active')}">
                                 <a class="nav-item {f:if(condition: mainnavigationItem.active, then:'active')}"
                                    href="{mainnavigationItem.link}"
                                    target="{mainnavigationItem.target}"
@@ -238,36 +238,31 @@
     </nav>
 -->
   </header>
-
-  <body>
     <!--    шапка баннер-->
     <div class="kso-banner mt-40">
       <div class="container">
         <h1
-          class="text-white maxw-md-75 mb-md-30 mb-40 mt-lg-80 mt-md-60 mt-40"
-        >
+          class="text-white mb-md-30 mb-40 mt-lg-80 mt-md-60 mt-40">
           Корпоративная социальная ответственность
         </h1>
-        <div class="row">
-          <div class="col-6"></div>
-          <div class="col-6 bg-primary p-30 text-left col-xl-6 col-12 col-md-6">
-            <h4 class="mb-10">
-              В своей деятельности ВЦИОМ придерживается принципов устойчивого
-              развития: мы стараемся бережно относиться к экологии,
-              содействовать в решении важных социальных задач, поддерживать
-              отраслевые инициативы.
-            </h4>
-            <h4 class="mb-10">
-              В рамках Политики в области корпоративной социальной
-              ответственности наша компания совместно с благотворительными
-              фондами и некоммерческими организациями проводит pro bono
-              исследования, реализует масштабные просветительские акции и
-              проекты.
-            </h4>
-          </div>
+      </div>
+      <div class="kso-banner-intro">
+        <div class="kso-intro">
+          <p>
+            В своей деятельности ВЦИОМ придерживается принципов устойчивого
+            развития: мы стараемся бережно относиться к экологии,
+            содействовать в решении важных социальных задач, поддерживать
+            отраслевые инициативы.
+          </p>
+          <p class="mb-0">
+            В рамках Политики в области корпоративной социальной
+            ответственности наша компания совместно с благотворительными
+            фондами и некоммерческими организациями проводит pro bono
+            исследования, реализует масштабные просветительские акции и
+            проекты.
+          </p>
         </div>
       </div>
-      <span class="anchor" id="news"></span>
     </div>
 
     <!--    доп навигация-->
@@ -286,12 +281,13 @@
         </nav>
       </div>
     </div>
-
+    <!--   Новости и события -->
+    <span class="anchor" id="news"></span>
     <section>
       <div class="container">
         <h2>Новости и события</h2>
-        <div class="row mb-lg-50">
-          <div class="border-news col-lg-6 mb-30">
+        <div class="row">
+          <div class="border-news col-lg-6 mb-40 mb-lg-0">
             <div>
               <div class="mb-10">
                 <span class="news-date mr-20 text-secondary">19.05.2022</span>
@@ -311,7 +307,7 @@
               приёмному родительству.
             </div>
           </div>
-          <div class="border-news col-lg-6 mb-30">
+          <div class="border-news col-lg-6 ">
             <div>
               <div class="mb-10">
                 <span class="news-date mr-20 text-secondary">31.03.2022</span>
@@ -337,21 +333,21 @@
         <a class="to-all-btn" href="/news" target="_blank">Все новости</a>
         -->
       </div>
-      <span class="anchor" id="green-policy"></span>
     </section>
-
+    <!--   Зеленая политика -->
+    <span class="anchor" id="green-policy"></span>
     <section class="bg-primary">
       <div class="container">
-        <h2 class="mb-md-30 mb-20">Зеленая политика</h2>
-        <div class="row">
-          <div class="col-lg-9 col-md-8">
-            <div class="zelpol-title">
-              <h3 class="mb-20">
+        <h2 class="mb-md-40 mb-20">Зеленая политика</h2>
+        <div class="row justify-content-between">
+          <div class="col-lg-8">
+            <div class="zelpol-title mb-30">
+              <h3 class="mb-0">
                 ВЦИОМ меняет жизнь людей к лучшему и&nbsp;заботится
                 об&nbsp;окружающей среде
               </h3>
             </div>
-            <p>
+            <p class="mb-30">
               Мы осознаем нашу ответственность за &nbsp;охранение окружающей
               среды и&nbsp;признаем защиту окружающей среды базовой ценностью,
               на&nbsp;которую ориентируемся при &nbsp;существлении деятельности
@@ -359,25 +355,25 @@
               безопасного и&nbsp;устойчивого развития.
             </p>
             <a class="btn-main mt-md-20" href="#" target="_blank"
-              ><span>Правила и принципы</span></a
-            >
+              ><span>Правила и принципы</span>
+            </a>
           </div>
-          <div class="col-lg-3 col-md-4 d-none d-xl-block d-md-block">
+          <div class="col-md-auto text-right d-none d-lg-block">
             <img src="images/icon4.png" alt="Зеленая политика" />
           </div>
         </div>
       </div>
-      <span class="anchor" id="charity"></span>
     </section>
-
+    <!--   Благотвори&shy;тельность -->
+    <span class="anchor" id="charity"></span>
     <section>
       <div class="container">
-        <h2 class="mb-lg-50 mb-40">
+        <h2 class="maxw-75 mb-lg-50 mb-40">
           Благотвори&shy;тельность и корпоративное волонтерство
         </h2>
-        <h3 class="mb-20">Мы сотрудничаем с Фондами:</h3>
-        <div class="row justify-content-between mb-80">
-          <div class="col text-center">
+        <h3 class="mb-30">Мы сотрудничаем с Фондами:</h3>
+        <div class="row justify-content-lg-between align-items-center mb-80">
+          <div class="col-auto text-center">
             <div class="platform mb-md-0 mb-40">
               <div class="logo mb-20">
                 <a
@@ -390,7 +386,7 @@
               </div>
             </div>
           </div>
-          <div class="col text-center">
+          <div class="col-auto text-center">
             <div class="platform mb-md-0 mb-40">
               <div class="logo mb-20">
                 <a
@@ -403,7 +399,7 @@
               </div>
             </div>
           </div>
-          <div class="col text-center">
+          <div class="col-auto text-center">
             <div class="platform mb-md-0 mb-40">
               <div class="logo mb-20">
                 <a
@@ -416,7 +412,7 @@
               </div>
             </div>
           </div>
-          <div class="col text-center">
+          <div class="col-auto text-center">
             <div class="platform mb-md-0 mb-40">
               <div class="logo mb-20">
                 <a
@@ -431,7 +427,7 @@
               </div>
             </div>
           </div>
-          <div class="col text-center">
+          <div class="col-auto text-center">
             <div class="platform mb-md-0 mb-40">
               <div class="logo mb-20">
                 <a
@@ -444,7 +440,7 @@
               </div>
             </div>
           </div>
-          <div class="col text-center">
+          <div class="col-auto text-center">
             <div class="platform mb-md-0 mb-40">
               <div class="logo mb-20">
                 <a
@@ -461,10 +457,10 @@
           </div>
         </div>
 
-        <h3 class="mb-20">Проекты PRO BONO</h3>
+        <h3 class="mb-30">Проекты PRO BONO</h3>
         <div class="news">
           <div class="row news-main mb-20 mb-md-0">
-            <div class="col-md-6 news-item">
+            <div class="col-md-6 col-xl-3 news-item mb-md-0 mb-50">
               <div class="mr-md-25 mr-0">
                 <a class="no-underline" href="#">
                   <div class="news-img mb-20">
@@ -501,8 +497,7 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-md-6 news-item">
+            <div class="col-md-6 col-xl-3 news-item mb-md-0 mb-50">
               <div class="mr-md-25 mr-0">
                 <a class="no-underline" href="#">
                   <div class="news-img mb-20">
@@ -541,8 +536,7 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-md-6 news-item">
+            <div class="col-md-6 col-xl-3 news-item mb-md-0 mb-50">
               <div class="mr-md-25 mr-0">
                 <a class="no-underline" href="#">
                   <div class="news-img mb-20">
@@ -581,8 +575,7 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-md-6 news-item">
+            <div class="col-md-6 col-xl-3 news-item ">
               <div class="mr-md-25 mr-0">
                 <a class="no-underline" href="#">
                   <div class="news-img mb-20">
@@ -627,7 +620,6 @@
         <a class="to-all-btn" href="#" target="_blank">Все проекты</a>
         -->
       </div>
-      <span class="anchor" id="projects"></span>
     </section>
 
     <!--
@@ -676,13 +668,13 @@
         </div>
     </section>
 -->
-
+    <span class="anchor" id="projects"></span>
     <section class="bg-grey">
       <div class="container">
         <h2 class="mb-lg-50 mb-40">Просветительские проекты</h2>
-        <div class="row mb-30">
-          <div class="col-xl-6 col-md-6 mb-80">
-            <h3 class="mb-20">Социологический диктант ВЦИОМ</h3>
+        <div class="row">
+          <div class="col-xl-6 col-md-6 mb-80 mb-md-0">
+            <h3 class="mb-30">Социологический диктант ВЦИОМ</h3>
             <p>
               Социологический диктант – это просветительская онлайн-акция и
               уникальная возможность для всех, кому интересно общество и его
@@ -694,9 +686,9 @@
               ><span>Подробнее</span></a
             >
           </div>
-          <div class="col-xl-6 col-md-6 mb-30">
-            <h3 class="mb-20">
-              Ежегодная социологическая книжная премия им. Б. А. Грушина
+          <div class="col-xl-6 col-md-6">
+            <h3 class="mb-30">
+              Ежегодная социологическая книжная премия им.&nbsp;Б.&nbsp;А.&nbsp;Грушина
             </h3>
             <p>
               Премия учреждена в память о Борисе Андреевиче Грушине – выдающемся
@@ -709,82 +701,47 @@
           </div>
         </div>
       </div>
-      <span class="anchor" id="contacts"></span>
     </section>
-
+    <span class="anchor" id="contacts"></span>
     <section class="bg-primary">
       <div class="container">
-        <h2 class="mb-lg-50 mb-40">Контакты</h2>
-        <h3>
+        <h2 class="mb-lg-40 mb-20">Контакты</h2>
+        <p class="desk-text-xl"><b>
           По вопросам политики ВЦИОМ в области корпоративной социальной
           ответственности и&nbsp;реализации исследований в&nbsp;формате
           pro&nbsp;bono пишите
-          <a href="mailto:	abustina_n@wciom.ru">Абустиной&nbsp;Наталье</a>
-        </h3>
+          <a href="mailto:abustina_n@wciom.ru">Абустиной&nbsp;Наталье</a></b>
+        </p>
       </div>
     </section>
 
     <footer class="mt-auto bg-grey">
       <div class="container mb-0">
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-6">
-            <img
-              class="mb-lg-30 mb-md-20 mb-30"
-              src="images/logo-green.svg"
-              alt="ВЦИОМ"
-            />
-            <p>© 2020 ВЦИОМ</p>
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-3">
+            <img class="mb-lg-30 mb-md-20 mb-30 " src="images/logo-green.svg" alt="ВЦИОМ">
+            <p>© 2022 ВЦИОМ</p>
           </div>
-          <div class="col-lg-3 col-md-5 col-6 pl-0">
+          <div class="col-lg-3 col-md-5 pl-md-0 mb-30 mb-md-0">
             <p><a class="black-link" href="/">Зеленая политика</a></p>
-            <p>
-              <a class="black-link mr-20" href="/"
-                >Благотвори&shy;тельность и корпоративное волонтерство</a
-              >
-            </p>
-            <p>
-              <a class="black-link" href="/aboutus">Просветительские проекты</a>
-            </p>
+            <p><a class="black-link mr-20" href="/">Благотворительность и корпоративное волонтерство</a></p>
+            <p><a class="black-link" href="/">Просветительские проекты</a></p>
           </div>
           <div class="col-lg-6 col-md-4 align-self-lg-start text-md-right">
             <div class="row desk-menu-l mb-20 text-md-right">
-              <div class="col-md-auto col-6 pl-md-20">
-                <a class="black-link font-weight-bold" href="tel:84957480807"
-                  >7 (495) 748-0807</a
-                >
-              </div>
-              <div class="col-md-auto col-6 pl-0 pl-md-20">
-                <a
-                  class="black-link font-weight-bold"
-                  href="mailto:web@wciom.com"
-                  >web@wciom.com</a
-                >
-              </div>
+              <div class="col-md-auto pl-md-20 mb-20"><a class="black-link font-weight-bold" href="tel:84957480807">7 (495) 748-0807</a></div>
+              <div class="col-md-auto pl-md-20 mb-20"><a class="black-link font-weight-bold" href="mailto:web@wciom.com">web@wciom.com</a></div>
             </div>
           </div>
           <div class="col-lg-6 soc-ftr mt-lg-0 mt-md-40 ml-lg-auto pl-md-20">
-            <p class="desk-text-s mb-5">
-              Следите за нашими новостями любым удобным способом:
-            </p>
+            <p class="desk-text-s mb-5">Следите за нашими новостями любым удобным способом:</p>
             <div class="row">
-              <div class="col-auto mb-10 mb-md-0">
-                <a href="https://t.me/WCIOMofficial" target="_blank"
-                  >telegram</a
-                >
-              </div>
+              <div class="col-auto mb-10 mb-md-0"><a href="https://t.me/WCIOMofficial" target="_blank" >telegram</a></div>
               <!-- <div class="col-auto mb-10 mb-md-0"><a href="/">rss</a></div> -->
-              <div class="col-auto mb-10 mb-md-0">
-                <a href="https://www.youtube.com/user/vciom/" target="_blank"
-                  >youtube</a
-                >
-              </div>
-              <div class="col-auto mb-10 mb-md-0">
-                <a href="https://twitter.com/WCIOM" target="_blank">twitter</a>
-              </div>
+              <div class="col-auto mb-10 mb-md-0"><a href="https://www.youtube.com/user/vciom/" target="_blank">youtube</a></div>
+              <div class="col-auto mb-10 mb-md-0"><a href="https://twitter.com/WCIOM" target="_blank">twitter</a></div>
               <!-- <div class="col-auto mb-10 mb-md-0"><a href="https://www.facebook.com/wciom/" target="_blank">facebook</a></div> -->
-              <div class="col-auto mb-10 mb-md-0">
-                <a href="https://vk.com/wciompage" target="_blank">vk</a>
-              </div>
+              <div class="col-auto mb-10 mb-md-0"><a href="https://vk.com/wciompage" target="_blank">vk</a></div>
               <!-- <div class="col-auto mb-10 mb-md-0"><a href="https://instagram.com/wciom/" target="_blank">instagram</a></div> -->
             </div>
           </div>
@@ -792,23 +749,9 @@
       </div>
     </footer>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+    <script src="js/jquery.min.js" ></script>
+    <script src="bootstrap/dist/js/bootstrap.js" ></script>
+    <script src="bootstrap/js/dist/collapse.js" ></script>
 
-    <!--
-<div class="modal fade show" id="eco-policy" tabindex="-1" role="dialog" style="display: block; padding-right: 0px;">
-    <div class="modal-dialog reg-card" role="document">
-        <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M16.9275 17.3417L8 26.2693L8.70711 26.9764L17.6347 18.0489L26.6777 27.0919L27.3848 26.3848L18.3418 17.3417L27.0919 8.59163L26.3848 7.88452L17.6347 16.6346L9 8L8.29289 8.70711L16.9275 17.3417Z" fill="black"></path>
-</svg></span>
-            </button>
-            <img src="images/eco-policy.jpg" alt="">
-
-</div>
-</div>
-</div>
--->
   </body>
 </html>

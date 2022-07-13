@@ -503,7 +503,7 @@ button.btn-second {
   background-image: none;
 }
 
-a.anchor {
+a.anchor, span.anchor {
   background-image: none;
   display: block;
   position: relative;
@@ -3364,7 +3364,48 @@ a.black-link.active {
     border: 0;
   }
 }
-
-
+/* стили Зеденая политика */
+.green-policy-hdr {
+  p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 45%;
+  }
+}
+.desk-text-xl {
+  font-size: 20px;
+}
+.swc .img-dark img {
+  width: 122px;
+}
+.kso-banner {
+  min-height: 95vh;
+  display: flex;
+  h1 {
+    font-weight: 600;
+    font-size: 8vw;
+    line-height: 8vw !important;
+    max-width: 60%;
+  }
+  .kso-banner-intro {
+    position: relative;
+    bottom: 0;
+  }
+  .kso-intro {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 75vw;
+    overflow: hidden;
+    background-color: $primary;
+    padding: 50px;
+    color: white;
+    p {
+      max-width: 80%;
+      font-size: 16px;
+    }
+  }
+}
 @import "../bootstrap/scss/bootstrap";
 @import "_media";

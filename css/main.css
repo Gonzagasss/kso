@@ -328,7 +328,7 @@ a.btn-second,
 button.btn-second {
   background-image: none; }
 
-a.anchor {
+a.anchor, span.anchor {
   background-image: none;
   display: block;
   position: relative;
@@ -2477,6 +2477,43 @@ a.black-link.active {
     padding: 3.2rem;
     background: transparent;
     border: 0; }
+
+/* стили Зеденая политика */
+.green-policy-hdr p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 45%; }
+
+.desk-text-xl {
+  font-size: 20px; }
+
+.swc .img-dark img {
+  width: 122px; }
+
+.kso-banner {
+  min-height: 95vh;
+  display: flex; }
+  .kso-banner h1 {
+    font-weight: 600;
+    font-size: 8vw;
+    line-height: 8vw !important;
+    max-width: 60%; }
+  .kso-banner .kso-banner-intro {
+    position: relative;
+    bottom: 0; }
+  .kso-banner .kso-intro {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 75vw;
+    overflow: hidden;
+    background-color: #00a48a;
+    padding: 50px;
+    color: white; }
+    .kso-banner .kso-intro p {
+      max-width: 80%;
+      font-size: 16px; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -11065,7 +11102,16 @@ a.text-dark:hover, a.text-dark:focus {
     max-width: 1230px; }
 
   .container-fluid.ta-nav {
-    max-width: 1230px; } }
+    max-width: 1230px; }
+
+  .kso-banner {
+    min-height: 95vh;
+    display: flex; }
+    .kso-banner h1 {
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 80px !important;
+      max-width: 60%; } }
 @media (min-width: 1500px) {
   section.main-screen {
     height: auto; } }
@@ -11186,7 +11232,11 @@ a.text-dark:hover, a.text-dark:focus {
       .nav-top-black .flex-cont .order a.order-text .order-icon {
         display: none; }
       .nav-top-black .flex-cont .order a.order-text span {
-        height: initial; } }
+        height: initial; }
+
+  .green-policy-hdr p {
+    max-width: 50%;
+    margin-bottom: 60px; } }
 /***************************************************   планшеты   *********/
 @media (max-width: 768px) {
   header.main-hdr .nav-top-black .navbar-collapse.show ul.navbar-nav li.nav-item {
@@ -11301,9 +11351,6 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 38px;
     line-height: 46px; }
 
-  .container {
-    padding: 0; }
-
   .news-main .news-item {
     width: 320px; }
 
@@ -11405,9 +11452,18 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 13px; }
 
   .kryshechki img {
-    width: 150px; } }
+    width: 150px; }
+
+  .green-policy-hdr p {
+    max-width: 60%;
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 32px; }
+
+  .desk-text-xl {
+    font-size: 14px; } }
 /***************************************************   мобильные   *********/
-@media (max-width: 414px) {
+@media (max-width: 425px) {
   header.main-hdr .nav-top-black .order-btn {
     position: initial;
     max-width: 145px; }
@@ -11709,13 +11765,31 @@ a.text-dark:hover, a.text-dark:focus {
 
   .modal-dialog.reg-card {
     margin: 5rem auto;
-    max-width: 350px; } }
+    max-width: 350px; }
+
+  .green-policy-hdr p {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px; }
+
+  .kso-banner {
+    display: initial;
+    min-height: auto; }
+    .kso-banner .container {
+      margin: 60px 0; }
+    .kso-banner .kso-banner-intro {
+      position: initial; }
+      .kso-banner .kso-banner-intro .kso-intro {
+        position: relative;
+        bottom: initial;
+        width: 100%;
+        padding: 40px 20px; }
+        .kso-banner .kso-banner-intro .kso-intro p {
+          max-width: 100%; } }
 @media (min-width: 1024px) {
   .zelpol-title {
     width: 75%; } }
-@media (min-width: 1200px) {
-  .swc .img-dark img {
-    width: 130px !important; } }
 @media (min-width: 768px) {
   .border-news:first-child {
     padding-right: 45px; } }
@@ -11752,9 +11826,12 @@ a.text-dark:hover, a.text-dark:focus {
     background-size: revert !important; }
 
   .ta-nav-block {
-    top: 58px; } }
+    top: 42px; } }
 @media (max-width: 375px) {
-  .swc .img-dark img {
-    width: 130px !important; } }
+  .ta-nav-block {
+    top: 58px; } }
+@media (max-width: 320px) {
+  .platform .logo img {
+    max-height: 44px; } }
 
 /*# sourceMappingURL=main.css.map */
