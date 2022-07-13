@@ -2509,7 +2509,7 @@ a.black-link.active {
     width: 75vw;
     overflow: hidden;
     background-color: #00a48a;
-    padding: 50px;
+    padding: 40px;
     color: white; }
     .kso-banner .kso-intro p {
       max-width: 80%;
@@ -11790,6 +11790,9 @@ a.text-dark:hover, a.text-dark:focus {
 @media (min-width: 1024px) {
   .zelpol-title {
     width: 75%; } }
+@media (max-width: 943px) {
+  .kso-banner .kso-intro p {
+    font-size: 12px !important; } }
 @media (min-width: 768px) {
   .border-news:first-child {
     padding-right: 45px; } }

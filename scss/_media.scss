@@ -830,6 +830,13 @@ width: 75%;
 }
 
 
+@media (max-width: 943px) {
+  .kso-banner .kso-intro p {
+    font-size: 12px !important;
+  }
+}
+
+
 @media (min-width: 768px) {
   .border-news:first-child {
     padding-right: 45px;
